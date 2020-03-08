@@ -1,6 +1,7 @@
 # Compiler
 TODO
 
+## Supported Grammar
 ```
 <program>     ::=   <function>*
 
