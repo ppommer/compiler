@@ -1,7 +1,8 @@
 # Compiler
 Programming exercise in the course of the practical lecture _Fundamentals of Programming_ (IN0002) at the Technical University of Munich.
 
-#### Compiler
+## Packages
+### Compiler
 Translates a given program of the grammar below into Assembler.
 
 **Supported Instructions**
