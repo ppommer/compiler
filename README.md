@@ -7,7 +7,7 @@ Programming exercise in the course of the practical lecture _Fundamentals of Pro
 Recursive Descent Parser providing a method for each non-terminal of the grammar below. Each of these methods expects an array consisting of tokens as parameters and a start index.
 
 ### Interpreter
-The simulated machine has an int stack of size 128 as memory; all instructions are stored in a separate program memory. Arguments are consumed from the stack and results are put on the stack again. In addition, some instructions have a single argument, which is stored directly in the program as part of the instruction (immediate).
+The simulated machine has an int stack of size 128 as memory; all instructions are stored in a separate program memory. Arguments are consumed from the stack and results are put on the stack again. In addition, some instructions have a single argument which is stored directly in the program as part of the instruction (immediate).
 
 ![alt text](interpreter.jpg)
 
