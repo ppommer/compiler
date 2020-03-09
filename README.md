@@ -11,7 +11,7 @@ NOP, ADD, SUB, MUL, MOD, LDI, LDS, STS, JUMP, JE, JNE, JLT, CALL, RETURN, IN, OU
 ```
 
 ### Interpreter
-The simulated machine has an int stack of size 128 as memory; all instructions are stored in a separate program memory. Arguments are consumed from the stack and results are put on the stack again. In addition, some instructions have a single argument, which is stored directly in the program as part of the instruction (Immediate).
+The simulated machine has an int stack of size 128 as memory; all instructions are stored in a separate program memory. Arguments are consumed from the stack and results are put on the stack again. In addition, some instructions have a single argument, which is stored directly in the program as part of the instruction (immediate).
 
 ![alt text](interpreter.jpg)
 
