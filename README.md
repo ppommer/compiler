@@ -1,7 +1,7 @@
 # Compiler
 Programming exercise in the course of the practical lecture _Fundamentals of Programming_ (IN0002) at the Technical University of Munich.
 
-**Compiler**\
+### Compiler
 Translates a given program of the grammar below into Assembler.
 
 **Supported Instructions**
@@ -9,15 +9,15 @@ Translates a given program of the grammar below into Assembler.
 NOP, ADD, SUB, MUL, MOD, LDI, LDS, STS, JUMP, JE, JNE, JLT, CALL, RETURN, IN, OUT, HALT, ALLOC, LDH, STH, ALLOCH
 ```
 
-**Interpreter**\
+### Interpreter
 The simulated machine has an int stack of size 128 as memory; all instructions are stored in a separate program memory; they consume their arguments from the stack and put their results on the stack again. In addition, some instructions have a single argument, which is stored directly in the program as part of the instruction (Immediate).
 
 ![alt text](interpreter.jpg)
 
-**Optimizer**\
+### Optimizer
 Tail Call Optimization making a jump from a recursive call. The old stack frame is kept, the control flow goes back to the beginning of the function.
 
-**Parser**\
+### Parser
 Recursive Descent Parser providing a method for each non-terminal of the grammar below. Each of these methods expects an array consisting of tokens as parameters and a start index.
 
 
