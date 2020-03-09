@@ -20,7 +20,7 @@ TODO
                     | write( <expr> ); 
                     | if ( <cond> ) <stmt> 
                     | if ( <cond> ) <stmt> else <stmt>
-                    | while (<cond> ) <stmt>
+                    | while ( <cond> ) <stmt>
                     | return <expr>;
                     
 <expr>        ::=   <number>
