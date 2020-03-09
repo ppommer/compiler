@@ -1,5 +1,7 @@
 # Compiler
-TODO
+Programming exercise in the course of the practical lecture _Fundamentals of Programming_ (IN0002) at the Technical University of Munich.
+
+Simulation of a JIT compiler for Java with a simplified grammar.
 
 ## Supported Grammar
 ```
@@ -20,7 +22,7 @@ TODO
                     | write( <expr> ); 
                     | if ( <cond> ) <stmt> 
                     | if ( <cond> ) <stmt> else <stmt>
-                    | while (<cond> ) <stmt>
+                    | while ( <cond> ) <stmt>
                     | return <expr>;
                     
 <expr>        ::=   <number>
